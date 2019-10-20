@@ -18,16 +18,12 @@
       }
       @media (min-width: 576px) {
        .img-fluid-sm-dc {
-          height: 50%;
-          width: 50%;
         }
       }
 
       // Medium devices (tablets, 768px and up)
       @media (min-width: 768px) { 
         .img-fluid-sm-dc {
-          height: 100%;
-          width: 100%;
         }
       }
 
@@ -37,12 +33,10 @@
       // Extra large devices (large desktops, 1200px and up)
       @media (min-width: 1200px) { ... }
 
-      @media (min-width: 768px) {
-        .img-fluid-sm-dc {
-          height: 300px;
-          width: 300px;
-        }
-      
+      .full-height {
+        height: 100%;
+        position: relative;
+      }      
     </style>
 
     <title>SBC Bootstrap</title>
@@ -82,14 +76,15 @@
         <!-- <span> S Babulal & Co.</span> -->
   <!-- Jumbotron -->
   <br id="home">
-  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <br><br>
+  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column full-height">
     <div class="container-fluid">
       <div class="row">
         <div class="col">
         </div>
         <div class="col-10">
           <div class="jumbotron" style="background-color: white">
-            <h1 class="text-center">Cement Fibre Boards Dealer in Pune</h1> <br>
+            <h1 class="text-center">Cement Fibre Boards Dealer in Pune</h1> <br><br>
             <p class="text-center lead" style="font-weight: bold;">We provide a wide range of <strong style="color: darkgreen;">eco-friendly</strong> construction products such as cement fibre boards, soundproof wall panels, false ceiling, mezzanine flooring material, drywall partition, colour coated sheets, iron and steel.<br><br>For quick responses to your queries <a href="https://wa.me/919096544667?text=Hello!%20I%20am%20interested%20in%20cement%20fibre%20sheets%20of%20thickness...mm%20and%20size...">ping here using WhatsApp</a>.</p>           
           </div>
         </div>
@@ -98,11 +93,12 @@
       </div>  
     </div>      
   </div>
-
-  <hr>
+<br><br><br><br>
+  <hr id="products">
+  <br>
 
   <div class="h-100 d-inline-block" style="height: 100%">
-    <div class="container-fluid"  id="products">
+    <div class="container-fluid" >
       <div class="row">
         <div class="col">
         </div>
